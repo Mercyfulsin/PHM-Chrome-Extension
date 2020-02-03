@@ -7,7 +7,10 @@ $(window).on('load', ()=>{
 	console.log("CSS");
 	//console.log(css[2].cssRules[512].style.backgroundColor);
 	console.log(css);
+	$('body').css('background', 'black');
+	$('.preview-modal, .container[data-v-742445dd]').css('background', 'black !important');
 	css[2].cssRules[2541].style.backgroundColor = "rgb(0,0,0)";
 	css[2].cssRules[512].style.backgroundColor = "rgb(0, 0, 0)";
-	css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
+	css[2].cssRules[2399].style.backgroundColor = "rgb(0, 0, 0)";
+	// css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
 });

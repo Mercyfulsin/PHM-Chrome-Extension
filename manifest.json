@@ -8,7 +8,7 @@
       // "matches": ["http://*/*", "https://*/*"],
       "matches": ["https://my.phmlink.com/*"],
       "run_at": "document_end",
-      "js": ["jquery.js", "Rank.js", "OpenAll.js", "AllRanks.js"]
+      "js": ["jquery.js", "Rank.js", "OpenAll.js", "AllRanks.js", "HackerMode.js"]
     }
   ],
   "page_action": {
