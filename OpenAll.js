@@ -13,6 +13,7 @@ function OpenStuff() {
     } else {
         $('.smartable-select-visible').click(function () {
             console.log("Yo im here");
+            $('.top_nav').remove();
             $.each($('a'), function (index, value) {
                 if (this.innerText == "Review") {
                     console.log("This is an a");

@@ -4,7 +4,6 @@
 $(window).on('load', ()=>{
 	var cssRuleCode = document.all ? 'rules' : 'cssRules'; //account for IE and FF
 	$('.nav_title').remove();
-	$('.top_nav').remove();
 	$('footer').remove();
 	let css = document.styleSheets;
 	console.log("CSS");
@@ -23,5 +22,7 @@ $(window).on('load', ()=>{
 	css[92].cssRules[5].style.background = "black"; //Modal Background
 	css[2].cssRules[512].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[2399].style.backgroundColor = "rgb(0, 0, 0)";
+	css[2].cssRules[3241].style.backgroundColor = "rgb(0, 0, 0)";
+	css[2].cssRules[3259].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
 });
