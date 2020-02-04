@@ -11,6 +11,7 @@ $(window).on('load', ()=>{
 	$('body').css('color', 'yellow');
 	css[2].cssRules[2541].style.backgroundColor = "rgb(0,0,0)";
 	css[2].cssRules[72].style.background = "black";
+	css[2].cssRules[72].style.backgroundColor = "black";
 	css[2].cssRules[541].style.backgroundColor = "rgb(0,0,0)";
 	css[90].cssRules[5].style.background = "black";
 	css[2].cssRules[512].style.backgroundColor = "rgb(0, 0, 0)";
