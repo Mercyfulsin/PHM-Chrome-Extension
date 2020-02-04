@@ -8,8 +8,11 @@ $(window).on('load', ()=>{
 	//console.log(css[2].cssRules[512].style.backgroundColor);
 	console.log(css);
 	$('body').css('background', 'black');
-	$('.preview-modal, .container[data-v-742445dd]').css('background', 'black !important');
+	$('body').css('color', 'yellow');
 	css[2].cssRules[2541].style.backgroundColor = "rgb(0,0,0)";
+	css[2].cssRules[72].style.background = "black";
+	css[2].cssRules[541].style.backgroundColor = "rgb(0,0,0)";
+	css[90].cssRules[5].style.background = "black";
 	css[2].cssRules[512].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[2399].style.backgroundColor = "rgb(0, 0, 0)";
 	// css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
