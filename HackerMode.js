@@ -4,6 +4,8 @@
 $(window).on('load', ()=>{
 	var cssRuleCode = document.all ? 'rules' : 'cssRules'; //account for IE and FF
 	$('.nav_title').remove();
+	$('.top_nav').remove();
+	$('footer').remove();
 	let css = document.styleSheets;
 	console.log("CSS");
 	//console.log(css[2].cssRules[512].style.backgroundColor);
@@ -11,9 +13,9 @@ $(window).on('load', ()=>{
 	$('body').css('background', 'black');
 	$('body').css('color', 'yellow');
 	$('.table-striped').removeClass("table-striped");
-	console.log($('.reportrange_right'));
 	$('.reportrange_right').css('background', 'rgb(0,0,0)');
 	css[2].cssRules[2541].style.backgroundColor = "rgb(0,0,0)";
+	css[2].cssRules[2357].style.backgroundColor = "rgb(0,0,0)";
 	css[2].cssRules[538].style.backgroundColor = "rgb(0,0,0)";
 	css[2].cssRules[72].style.background = "black";
 	css[2].cssRules[72].style.backgroundColor = "black";
