@@ -24,5 +24,5 @@ $(window).on('load', ()=>{
 	css[2].cssRules[3241].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[3259].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
-	css[92].cssRules[5].style.background = "black"; //Modal Background
+	css[90].cssRules[5].style.background = "black"; //Modal Background
 });
