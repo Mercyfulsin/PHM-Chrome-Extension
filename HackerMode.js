@@ -11,6 +11,7 @@ $(window).on('load', ()=>{
 	console.log(css);
 	$('body').css('background', 'black');
 	$('body').css('color', 'yellow');
+
 	$('.table-striped').removeClass("table-striped");
 	$('#reportrange_right').css('background', 'rgb(0,0,0)');
 	css[2].cssRules[2541].style.backgroundColor = "rgb(0,0,0)";
@@ -24,5 +25,5 @@ $(window).on('load', ()=>{
 	css[2].cssRules[3241].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[3259].style.backgroundColor = "rgb(0, 0, 0)";
 	css[2].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
-	css[90].cssRules[5].style.background = "black"; //Modal Background 92 / 90 MOdulation?
+	css[92].cssRules[5].style.background = "black"; //Modal Background 92 / 90 MOdulation?
 });

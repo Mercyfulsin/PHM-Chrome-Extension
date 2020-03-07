@@ -12,12 +12,9 @@ function OpenStuff() {
         setTimeout(OpenStuff, 1000);
     } else {
         $('.smartable-select-visible').click(function () {
-            console.log("Yo im here");
             $('.top_nav').remove();
             $.each($('a'), function (index, value) {
                 if (this.innerText == "Review") {
-                    console.log("This is an a");
-                    console.log($(this));
                     var url = $(this).attr('href');
                     var newTab = window.open(url, '_blank');
                     if (!newTab || newTab.closed || typeof newTab.closed == 'undefined') {
