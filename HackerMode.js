@@ -2,7 +2,7 @@
 // Rows : .table-striped>tbody>tr:nth-of-type(odd) css[2][512].style.cssText = "background-color: #f9f9f9";
 // Rows Color: 
 const LOCATION = 2; //Modoulation 2 -> 1 ?
-$(window).on('load', ()=>{
+$(window).on('load', () => {
 	var cssRuleCode = document.all ? 'rules' : 'cssRules'; //account for IE and FF
 	$('.nav_title').remove();
 	$('footer').remove();
@@ -29,5 +29,7 @@ $(window).on('load', ()=>{
 	css[LOCATION].cssRules[3241].style.backgroundColor = "rgb(0, 0, 0)";
 	css[LOCATION].cssRules[3259].style.backgroundColor = "rgb(0, 0, 0)";
 	css[LOCATION].cssRules[512].cssText = `.table-striped > tbody > tr:nth-of-type(2n+1) { "background-color" : "#000000"}`;
-	css[90].cssRules[5].style.background = "black"; //Modal Background 92 / 90 Modulation?
+
+	//Modal Preview (Billing) [101/102]
+	css[101].cssRules[5].style.background = "black";
 });
